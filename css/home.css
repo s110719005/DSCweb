@@ -1,0 +1,118 @@
+
+
+.sec1{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5vw;
+}
+
+.sec1_left{
+    width:50%;
+    padding-top:5vw;
+}
+
+.sec1_pic{
+    width:80%;
+    margin-left:11.5vw;
+}
+
+.sec1_right{
+    width:50%;
+    padding-top:5vw;
+    padding-right:6.6vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color:white;
+}
+
+.sec1_text_title{
+    margin:2vh;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.sec1_text_content{
+    font-size: 1.2vw;
+    line-height: 4vh;
+}
+
+.sec2{
+    color:white;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+
+.sec2_title{
+    margin-bottom:3vw;
+}
+
+.card{
+    height:25vw;
+    width:19vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    background-color: var(--bg);
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    margin:0.5vw;
+    margin-bottom: 2vw;
+}
+
+.thumbnail{
+    width:12vw;
+    border-radius: 6vw;
+    margin-bottom: 2.5vh;
+}
+
+.card_name{
+    font-size: 1.2vw;
+    line-height: 4vh;
+    font-weight: 500;
+}
+
+.card_position,.card_text{
+    font-size: 1vw;
+    line-height: 3vh;
+    font-weight: 400;
+}
+
+.card_r1{
+    display: flex;
+    flex-direction: row;
+}
+
+.card_red{
+    border-color:var(--red)
+}
+.card_yellow{
+    border-color:var(--yellow);
+    margin-top:12.5vw;
+}
+.card_green{
+    border-color:var(--green)
+}
+.card_blue{
+    border-color:var(--blue);
+    margin-top:12.5vw;
+}
+
+.card_inv{
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.backline_con{
+    height:440vh;
+
+}
