@@ -54,13 +54,13 @@
 
 @media (max-width: 768px) {
     .font1{
-        font-size:5vw;
+        font-size:10vw;
     }
     .font2{
-        font-size:4.2vw;
+        font-size:7vw;
     }
     .font3{
-        font-size:3.2vw;
+        font-size:5vw;
         font-weight: 300;
     }
     .font4{
