@@ -4,7 +4,50 @@
     --green:#0F9D58;
     --blue:#4285F4;
     --bg:#2E2E2E;
+    --fortypx:1.6vw;
+    --thirtypx:1.4vw;
+    --twofourpx:
   }
+
+h1{
+    font-size: 1.2vw;
+    margin:0;
+    padding:0;
+}
+h2{
+    font-size: 1vw;
+    margin:0;
+    padding:0;
+}
+h3{
+    font-size: 0.8vw;
+    margin:0;
+    padding:0;
+    font-weight: 400;
+}
+h4{
+    font-size: 0.6vw;
+    margin:0;
+    padding:0;
+    font-weight: 400;
+
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    h1{
+        font-size:1.6vw;
+    }
+    h2{
+        font-size:1.4vw;
+    }
+    h3{
+        font-size:1.2vw;
+    }
+    h4{
+        font-size:1vw;
+    }
+
+}
 
 body{
     margin:0;
@@ -226,8 +269,4 @@ body{
     }
   }
 
-  @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
-    .header_right{
-        font-size:1.4vw;
-    }
-}
+  

@@ -30,12 +30,10 @@
 
 .sec1_text_title{
     margin:2vh;
-    font-size: 1.4vw;
     font-weight: 700;
 }
 
 .sec1_text_content{
-    font-size: 1.2vw;
     line-height: 4vh;
 }
 
@@ -44,7 +42,6 @@
     display:flex;
     align-items: center;
     flex-direction: column;
-    font-size: 1.6vw;
     font-weight: 700;
 }
 
@@ -76,18 +73,20 @@
 .thumbnail{
     width:12vw;
     border-radius: 6vw;
-    margin-bottom: 0vw;
+    margin-bottom: 1vw;
 }
 
-.card_name{
-    font-size: 1.2vw;
-    line-height: 4vw;
+.card h3{
     font-weight: 500;
 }
 
-.card_position,.card_text{
-    font-size: 1vw;
+.card_name{
     line-height: 3vw;
+    
+}
+
+.card_position,.card_text{
+    line-height: 2vw;
     font-weight: 400;
 }
 
@@ -117,7 +116,7 @@
 }
 
 .backline_con{
-    height:440vh;
+    height:300vw;
 
 }
 
