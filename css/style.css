@@ -102,7 +102,7 @@ body{
     
     align-items: center;
     justify-content: space-around;
-    font-size:1.4vw;
+    font-size:1vw;
 }
 
 .nav_text{
@@ -193,3 +193,41 @@ body{
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
   }
+
+  @media (max-width: 768px) {
+
+    .backline_con{
+        display:none;
+    }
+    .frame2{
+        border-width: 1vh;
+        height:98vh;
+    }
+    .header_right{
+        display:none;
+    }
+    .header_left{
+        width:80%;
+    }
+    .header{
+        height:20vw;
+        border-width:0px;
+    }
+    
+    .header_logo{
+        width:65vw;
+        padding-top: 3vw;
+        padding-left:5vw
+    }
+    
+    
+    .header_blank{
+        height:24vw;
+    }
+  }
+
+  @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .header_right{
+        font-size:1.4vw;
+    }
+}

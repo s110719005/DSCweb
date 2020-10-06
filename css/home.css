@@ -51,7 +51,11 @@
 .sec2_title{
     margin-bottom:3vw;
 }
-
+.card_computer{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
 .card{
     height:25vw;
     width:19vw;
@@ -72,18 +76,18 @@
 .thumbnail{
     width:12vw;
     border-radius: 6vw;
-    margin-bottom: 2.5vh;
+    margin-bottom: 0vw;
 }
 
 .card_name{
     font-size: 1.2vw;
-    line-height: 4vh;
+    line-height: 4vw;
     font-weight: 500;
 }
 
 .card_position,.card_text{
     font-size: 1vw;
-    line-height: 3vh;
+    line-height: 3vw;
     font-weight: 400;
 }
 
@@ -115,4 +119,42 @@
 .backline_con{
     height:440vh;
 
+}
+
+.card_phone{
+    display:none;
+}
+
+@media (max-width: 768px) {
+    .sec1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1_left{
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1_right{
+        width:100%;
+        padding:0;
+    }
+    .card_computer{
+        display:none;
+    }
+    .card_phone{
+        display:block;
+    }
+    .sec1_pic{
+        margin:0;
+        width: 75%;
+    }
+
+    .card{
+        width:80vw; 
+        height:30vw;
+        flex-direction: row;
+    }
 }
