@@ -155,5 +155,67 @@
         width:80vw; 
         height:30vw;
         flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .sec1{
+        margin-bottom: 12vw;
+    }
+
+    .thumbnail{
+        width:20vw;
+        border-radius: 10vw;
+        margin-bottom: 0vw;
+    }
+    
+    .card h3{
+        font-weight: 500;
+    }
+    
+    .card_name{
+        line-height: 8vw;
+        font-weight: 500;
+        
+    }
+    
+    .card_position,.card_text{
+        line-height: 5vw;
+        font-weight: 300;
+    }
+    .group_name{
+        width:68vw;
+        height:10vw;
+        border-radius: 10vw;
+        border-style: solid;
+        border-width: 1px;
+        border-color:white;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left:6vw;
+        padding-right: 6vw;
+        margin-bottom: 3vw;
+    }
+    .open{
+        width:5vw;
+    }
+    .group_lead,.group_teaching,.group_pm,.group_rd,.group_ui{
+        margin-bottom: 6vw;
+    }
+    .group_teaching .group_name,.group_teaching .card{
+        border-color: var(--red);
+    }
+    .group_pm .group_name,.group_pm .card{
+        border-color: var(--yellow);
+    }
+    .group_rd .group_name,.group_rd .card{
+        border-color: var(--green);
+    }
+    .group_ui .group_name,.group_ui .card{
+        border-color: var(--blue);
+    }
+    .sec2 .font2{
+        font-weight: 300;
+        letter-spacing: 2px;
     }
 }

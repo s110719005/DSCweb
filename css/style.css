@@ -46,7 +46,24 @@
     .font4{
         font-size:1vw;
     }
+    
 
+}
+
+@media (max-width: 768px) {
+    .font1{
+        font-size:5vw;
+    }
+    .font2{
+        font-size:4.2vw;
+    }
+    .font3{
+        font-size:3.2vw;
+        font-weight: 300;
+    }
+    .font4{
+        font-size:1.4vw;
+    }
 }
 
 body{
