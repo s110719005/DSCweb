@@ -194,11 +194,12 @@
         align-items: center;
         padding-left:6vw;
         padding-right: 6vw;
-        margin-bottom: 3vw;
+        margin-top: 3vw;
     }
-    .open{
-        width:5vw;
-    }
+    
+
+
+
     .group_lead,.group_teaching,.group_pm,.group_rd,.group_ui{
         margin-bottom: 6vw;
     }
@@ -217,5 +218,83 @@
     .sec2 .font2{
         font-weight: 300;
         letter-spacing: 2px;
+    }
+
+    .add,.add2,.add3,.add4,.add5{
+        width:5vw;
+        position: relative;
+        z-index:0;
+    }
+    .add_line{
+        
+        width:5vw;
+        height:0.7vw;
+        border-radius: 1vw;
+        background-color: white;
+        opacity: 1;
+        transition:0.4s;
+    }
+    .add_bar1,.add2_bar1,.add3_bar1,.add4_bar1,.add5_bar1{
+        -webkit-transform: rotate(-90deg) translate(-0.5vw, 0vw);
+        transform: rotate(-90deg) translate(-0.5vw, 0vw);
+    }
+    .add_bar2,.add2_bar2,.add3_bar2,.add4_bar2,.add5_bar2{
+        -webkit-transform: translate(0vw, -0.2vw);
+        transform: translate(0vw, -0.2vw);
+    }
+    .change .add_bar1,.change .add2_bar1,.change .add3_bar1,.change .add4_bar1,.change .add5_bar1{
+        opacity: 0;
+        -webkit-transform: rotate(0deg) translate(0.5vw, 0vw);
+        transform: rotate(0deg) translate(0.5vw, 0vw);
+    }
+
+    .card_list,.card_list2,.card_list3,.card_list4,.card_list5{
+        height:0vw;
+        overflow: hidden;
+        overflow-y: auto;
+        transition: 0.7s;
+        padding-top: 3vw;
+    }
+    .grow {
+        height:96vw;
+        overflow: visible;
+        transition: 0.7s;
+    }
+
+    .grow2 {
+        height:256vw;
+        overflow: visible;
+        transition: 0.7s;
+    }
+    .grow3{
+        height:64vw;
+        overflow: visible;
+        transition: 0.7s;
+    }
+    .grow4{
+        height:128vw;
+        overflow: visible;
+        transition: 0.7s;
+    }
+    .grow5{
+        height:64vw;
+        overflow: visible;
+        transition: 0.7s;
+    }
+    .card{
+        opacity: 0;
+        position: relative;
+        z-index: -1;
+        -webkit-transform: rotate(0deg) translate(0vw, -15vw);
+        transform: rotate(0deg) translate(0vw, -15vw); 
+        transition: 2s;
+    }
+    .grow .card, .grow2 .card,.grow3 .card,.grow4 .card,.grow5 .card{
+        opacity: 1;
+        position: relative;
+        z-index: -1;
+        -webkit-transform: rotate(0deg) translate(0vw, 0vw);
+        transform: rotate(0deg) translate(0vw, 0vw);
+        transition: 2s;
     }
 }
