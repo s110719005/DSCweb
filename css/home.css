@@ -125,6 +125,7 @@
 }
 
 @media (max-width: 768px) {
+    
     .sec1{
         flex-direction: column;
         justify-content: center;
