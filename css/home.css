@@ -152,10 +152,13 @@
     }
 
     .card{
-        width:80vw; 
+        width:70vw; 
         height:30vw;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: left;
+        padding-left:5vw;
+        padding-right: 5vw;
+        text-align: start;
         
     }
     .sec1{
@@ -166,6 +169,7 @@
         width:20vw;
         border-radius: 10vw;
         margin-bottom: 0vw;
+        margin-right:5vw;
     }
     
     .card h3{
@@ -250,33 +254,39 @@
 
     .card_list,.card_list2,.card_list3,.card_list4,.card_list5{
         height:0vw;
+        opacity: 0;
         overflow: hidden;
         overflow-y: auto;
         transition: 0.7s;
         padding-top: 3vw;
     }
     .grow {
+        opacity: 1;
         height:96vw;
         overflow: visible;
         transition: 0.7s;
     }
 
     .grow2 {
+        opacity: 1;
         height:256vw;
         overflow: visible;
         transition: 0.7s;
     }
     .grow3{
+        opacity: 1;
         height:64vw;
         overflow: visible;
         transition: 0.7s;
     }
     .grow4{
+        opacity: 1;
         height:128vw;
         overflow: visible;
         transition: 0.7s;
     }
     .grow5{
+        opacity: 1;
         height:64vw;
         overflow: visible;
         transition: 0.7s;
